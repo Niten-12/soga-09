@@ -1,0 +1,78 @@
+/* intro.css */
+/* Remove default margin and apply background color to the entire page */
+body {
+  background: radial-gradient(
+    circle,
+    #153677,
+    #4e085f
+  ); /* Set your desired background color here */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+.background-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  /* background-image: url("./sign1.svg"); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+  z-index: +1; 
+  opacity: 1.6; */
+}
+.background-image img {
+  height: 350px;
+  width: 550px;
+}
+
+.intro-page {
+  position: relative;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed */
+  text-align: center;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem;
+}
+
+.intro-page h1 {
+  font-size: 4.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.intro-page p {
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+
+.intro-page a {
+  text-decoration: none;
+}
+
+.intro-page button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.intro-page button:hover {
+  background-color: #0056b3;
+}

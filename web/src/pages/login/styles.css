@@ -1,0 +1,100 @@
+/* Styling for the page background */
+/*.login-page {
+  background: linear-gradient(
+    180deg,
+    #153677,
+    #4e085f
+  );  
+  margin: 0;}*/ /* Remove default margin to cover the entire page */
+
+.login-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* Styling for the login container */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto 0; /* Add margin-top to move the form down */
+  padding: 20px;
+  background-color: white; /* Set the background color of the login container to white */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center the content horizontally */
+}
+.form-group {
+  margin-bottom: 15px;
+  text-align: left; /* Align form elements to the left */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Styling for the "Forgot Password?" link */
+.forgot-password {
+  text-align: right; /* Align to the right */
+}
+/* Styling for the "Forgot Password?" link */
+.forgot-password {
+  text-align: right; /* Align to the right */
+  margin-bottom: 15px; /* Add margin to separate it from the button */
+}
+.forgot-password a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+}
+/* Styling for the "Sign In" button */
+button[type="submit"] {
+  background-color: #007bff; /* Set the button background color */
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block; /* Make the button a block-level element */
+  margin: 0 auto; /* Center the button horizontally */
+  margin-bottom: 20px; /* Add margin at the bottom to separate it from the next element */
+}
+.separator {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #888;
+}
+/* Styling for the "Sign In with Google" button */
+.google-button {
+  background-color: #4285f4; /* Set the button background color */
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block; /* Make the button a block-level element */
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Styling for the "Don't have an account?" link */
+.no-account {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.no-account a {
+  text-decoration: none;
+  color: #007bff;
+}

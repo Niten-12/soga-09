@@ -1,0 +1,19 @@
+@token=
+@host=http://localhost:5000
+@hostPath={{host}}
+@serverPath={{host}}
+@authorization=Bearer {{token}}
+@contentType=application/json
+
+###
+POST {{serverPath}}/auth
+content-type: 'application/json'
+
+{
+   "username": "sampleUsername",
+   "password": "1234"
+}
+
+
+###
+GET {{serverPath}}/dashboard
